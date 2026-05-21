@@ -1,0 +1,29 @@
+{
+  "entity": {
+    "name": "Example AI Persona",
+    "handle": "@example.persona",
+    "country": "India",
+    "creator": "Example Studio",
+    "notes": "Example profile for demonstration. Replace with actual entity data and evidence."
+  },
+  "scores": {
+    "PVS":  7.5,
+    "AIDS": 8.0,
+    "GDS":  4.0,
+    "CPOS": 7.0,
+    "ECS":  8.0,
+    "CSRS": 7.0,
+    "SCES": 6.0,
+    "CITS": 7.0
+  },
+  "justifications": {
+    "PVS":  "Strong facial consistency across 12 posts. Minor hair rendering variance. Skin and material rendering photographic.",
+    "AIDS": "Bio explicitly identifies as AI. Most posts carry per-post disclosure. Sponsored content labelled.",
+    "GDS":  "Creator publicly named. Studio website exists. No formal governance repository published.",
+    "CPOS": "Content originally produced. Pipeline partially disclosed (tools named). No IP violations found.",
+    "ECS":  "Clean conduct record. No documented violations. No formal monitoring infrastructure.",
+    "CSRS": "Culturally grounded in represented context. Accurate representation. No cause claims.",
+    "SCES": "No romantic simulation. No documented boundary policy. Relies on audience self-regulation.",
+    "CITS": "Sponsorships consistently labelled. Monetisation model implicit but consistent with stated commercial positioning."
+  }
+}
