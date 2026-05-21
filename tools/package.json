@@ -1,0 +1,53 @@
+{
+  "name": "sperb-benchmark",
+  "version": "1.0.0",
+  "description": "SPERB v1.0 — Synthetic Persona Ethics & Realism Benchmark. CLI tools for evaluating AI influencers and synthetic digital personas.",
+  "main": "score.js",
+  "scripts": {
+    "evaluate": "node evaluate.js",
+    "report": "node report.js",
+    "test": "node tests/score.test.js"
+  },
+  "bin": {
+    "sperb": "./evaluate.js",
+    "sperb-report": "./report.js"
+  },
+  "keywords": [
+    "AI-influencer",
+    "synthetic-persona",
+    "ethics",
+    "benchmark",
+    "SPERB",
+    "governance",
+    "OpenNHE",
+    "Algotheorem"
+  ],
+  "author": {
+    "name": "Algotheorem / OpenNHE",
+    "url": "https://github.com/OpenNHE"
+  },
+  "contributors": [
+    {
+      "name": "Pratham Prateek Mohanty",
+      "role": "Framework Architect"
+    },
+    {
+      "name": "Claude (Opus 4.7), Anthropic",
+      "role": "Specification Drafting & Pilot Benchmark"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenNHE/sperb-benchmark.git"
+  },
+  "homepage": "https://github.com/OpenNHE/sperb-benchmark#readme",
+  "bugs": {
+    "url": "https://github.com/OpenNHE/sperb-benchmark/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
